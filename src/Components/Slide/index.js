@@ -29,7 +29,7 @@ const Slide = () => {
                         <div className="background">
                             <div className="slide_lists">
                                 <div className="slide_list">
-                                    <h1>{item.title}</h1>
+                                    <h1 style={{marginTop: "10px"}}>{item.title}</h1>
                                     {item.id===1 &&(<img style={{margin: "40px 0 0 30px"}} src={first} alt="image"/>)}
                                     {item.id ===2 &&(<img style={{margin: "40px 0 0 30px"}} src={second} alt="image"/>)}
                                     {item.id ===3 &&(<img style={{margin: "40px 0 0 30px"}} src={third} alt="image"/>)}
