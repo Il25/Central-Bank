@@ -64,3 +64,110 @@ h1 {
 .slider {
     max-width: 1730px !important;
 }
+
+.exchange_rate {
+    background-color: hsla(0,0%,100%,.65);
+    padding: 45px 40px;
+    margin-top: 30px;
+    display: grid;
+    border-radius: 6px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    gap: 40px;
+    border-radius: 6px;
+}
+
+.exchange_cards {
+    color: #203147;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ex_card {
+    background-color: hsla(0,0%,100%,.5);
+    margin-bottom: 3px;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ex-num {
+    font-size: 38px;
+    font-weight: 700;
+    color: #007aff
+}
+
+.ex_percent {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.rates_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rates_percent {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.rates_ul {
+    display: grid;
+    background-color: hsla(0,0%,100%,.65);
+    padding: 20px 40px;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+
+.rates_li {   
+    color: #007aff;
+}
+
+.rates_li_span {
+    font-size: 14px;  
+    color: #617690;   
+}
+
+.rates_card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.from_date {
+    background-color: hsla(0,0%,100%,.5);
+    height: 30px;
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 8px;
+    margin-left: 42%;
+}
+
+.backing_sector {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+.loans {
+    width: 100%;
+    border-radius: 20px;
+}
