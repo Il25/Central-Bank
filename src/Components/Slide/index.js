@@ -24,8 +24,8 @@ const Slide = () => {
                 <h4><h4 className="w_word">W</h4>ednesday, 28 Sep.</h4>
             </div>
             <Slider {...settings} className="slider">
-                {slideData.map((item) => (
-                    <div className="slide_section">
+                {slideData.map((item, index) => (
+                    <div key={index} className="slide_section">
                         <div className="background">
                             <div className="slide_lists">
                                 <div className="slide_list">
