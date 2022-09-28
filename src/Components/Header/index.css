@@ -1,3 +1,124 @@
 .header {
-    background-color: red;
+    background-color: #f8fafd;
+    padding-bottom: 35px;
+}
+
+.header_info {
+    width: 100%;
+    height: 35px;
+    background-color: #203147;
+    margin-bottom: 15px;
+}
+
+.header_top_wrapper {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1680px;
+}
+
+.header_sosial_links {
+    display: flex;
+}
+
+.header_info_wrapper {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sosial_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    margin-right: 10px;
+}
+
+.header_adress {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.phone_number {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.header_lang {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.select_lang {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.header_bottom_info {
+    height: 100%;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.main_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #fff;
+    height: 54px;
+    margin-top: 16px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(1 33 105 / 10%);
+}
+
+.search_wrapper {
+    display: flex;
+}
+
+.search_icon {
+    display: flex;
+    background-color: #e6eaf1;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar_items {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;   
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #203147;
+    cursor: pointer;
 }
