@@ -31,8 +31,91 @@ const Slide = () => {
                                 <div className="slide_list">
                                     <h1 style={{marginTop: "10px"}}>{item.title}</h1>
                                     {item.id===1 &&(<img style={{margin: "40px 0 0 30px"}} src={first} alt="image"/>)}
-                                    {item.id ===2 &&(<img style={{margin: "40px 0 0 30px"}} src={second} alt="image"/>)}
-                                    {item.id ===3 &&(<img style={{margin: "40px 0 0 30px"}} src={third} alt="image"/>)}
+                                    {item.id ===2 &&(
+                                        <div className="exchange_rate">
+                                            <div className="exchange_cards">
+                                                <div>
+                                                    <div className="ex_card">
+                                                        <h5>$ 1 USD</h5>
+                                                    </div>
+                                                    <div className="ex-num">1.7000</div>
+                                                </div>
+                                                <div className="ex_percent">
+                                                    <span>-15%</span>
+                                                </div>
+                                            </div>
+                                            <div className="exchange_cards">
+                                                <div>
+                                                    <div className="ex_card">
+                                                        <h5>₽ 1 RUB</h5>
+                                                    </div>
+                                                    <div className="ex-num">0.0155</div>
+                                                </div>
+                                                <div className="ex_percent">
+                                                    <span>-25%</span>
+                                                </div>
+                                            </div>
+                                            <div className="exchange_cards">
+                                                <div>
+                                                    <div className="ex_card">
+                                                        <h5>€ 1 EUR</h5>
+                                                    </div>
+                                                    <div className="ex-num">1.8764</div>
+                                                </div>
+                                                <div className="ex_percent">
+                                                    <span>+15%</span>
+                                                </div>
+                                            </div>
+                                            <div className="exchange_cards">
+                                                <div>
+                                                    <div className="ex_card">
+                                                        <h5>₺ 1 TRY</h5>
+                                                    </div>
+                                                    <div className="ex-num">0.0932</div>
+                                                </div>
+                                                <div className="ex_percent">
+                                                    <span>-25%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
+                                    {item.id ===3 &&(
+                                        <div className="rates_cards">
+                                            <div className="rates_percent">
+                                                <ul className="rates_ul">
+                                                    <li className="rates_card">
+                                                        <p className="rates_li">6%</p>
+                                                        <span className="rates_li_span">Corridor floor</span>
+                                                    </li>
+                                                    <li className="rates_card">
+                                                        <p className="rates_li">9%</p>
+                                                        <span className="rates_li_span">Corridor ceiling</span>
+                                                    </li>
+                                                    <li className="rates_card">
+                                                        <p className="rates_li">7.5%</p>
+                                                        <span className="rates_li_span">Refinancing rate</span>
+                                                    </li>
+                                                </ul>
+                                                <span className="from_date">From 22.08.2022</span>
+                                            </div>
+                                            <div className="backing_sector">
+                                                <h3>Banking sector</h3>
+                                            </div>
+                                            <div className="loans">
+                                                <ul className="rates_ul">
+                                                    <li className="rates_card">
+                                                        <p className="rates_li">16781.4</p>
+                                                        <span className="rates_li_span">Loans (min. AZN)</span>
+                                                    </li>
+                                                    <li className="rates_card">
+                                                        <p className="rates_li">9635.8</p>
+                                                        <span className="rates_li_span">Household savings (min. AZN)</span>
+                                                    </li>
+                                                </ul>
+                                                <span className="from_date">From 22.08.2022</span>
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
                             </div> 
                     </div>
